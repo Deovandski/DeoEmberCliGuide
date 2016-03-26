@@ -1,53 +1,50 @@
-# Test-app
+## Deo's Ember Cli Guide
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#UNDER CONSTRUCTION!
 
-## Prerequisites
+[![Build Status][travis-badge]][travis] [![Test Coverage][testCoverage-badge]][testCoverage] [![Code Climate][codeClimate-badge]][codeClimate] [![Dependency Status][dependency-badge]][dependency] [![Security][security-badge]][security] [![Issues][issues-badge]][issues]
 
-You will need the following things properly installed on your computer.
+[Guide](https://deovandski.herokuapp.com/emberTutorial/) (Initial load may be slow due to Dyno sleep mode implemented by [Heroku](https://www.heroku.com/pricing).)
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+## Notice
 
-## Installation
+This guide was created with the purpose to cover the entire process from setting up a virtualized Ubuntu to deploying the website live on Heroku.
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+## Requirements
 
-## Running / Development
+1. [Node.js](https://nodejs.org/)
+2. [Npm](https://www.npmjs.com/)
+3. [Ember CLI](http://ember-cli.com/)
+3. [Bower](https://www.npmjs.com/package/bower)
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+## Ember Cli update
 
-Make use of the many generators for code, try `ember help generate` for more details
+1. Follow Project Update instructions on the choose [Ember Cli Release](https://github.com/ember-cli/ember-cli/releases)
+2. ember install ember-cli-blanket
+3. npm install --save-dev ember-cli-sass
+4. ember install ember-cli-bootstrap-sassy
+5. ember install ember-cli-document-title
+6. For Heroku Deployment, you may need to purge the cache with heroku repo:purge_cache -a APPNAME
 
-### Running Tests
+Something not working after update? Compare diffs and let me know what I missed by opening an issue. 
 
-* `ember test`
-* `ember test --server`
+## License
 
-### Building
+[The MIT License (MIT)](license.md)
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+Copyright (c) 2016, Deovandski Skibinski Junior. All rights reserved to the code. For copyright enquiries or notification, please contact deovandski@outlook.com so that I can take the necessary actions.
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+[travis]: https://travis-ci.org/Deovandski/DeoPersonalWebsite
+[travis-badge]: https://travis-ci.org/Deovandski/DeoPersonalWebsite.svg?branch=master
+[testCoverage]: https://codeclimate.com/github/Deovandski/DeoPersonalWebsite/coverage
+[testCoverage-badge]: https://codeclimate.com/github/Deovandski/DeoPersonalWebsite/badges/coverage.svg
+[codeClimate]: https://codeclimate.com/github/Deovandski/DeoPersonalWebsite
+[codeClimate-badge]: https://codeclimate.com/github/Deovandski/DeoPersonalWebsite/badges/gpa.svg
+[security]: https://hakiri.io/github/Deovandski/DeoPersonalWebsite/master
+[security-badge]: https://hakiri.io/github/Deovandski/DeoPersonalWebsite/master.svg
+[dependency]: https://gemnasium.com/Deovandski/DeoPersonalWebsite
+[dependency-badge]: https://gemnasium.com/Deovandski/DeoPersonalWebsite.svg
+[issues]: https://codeclimate.com/github/Deovandski/DeoPersonalWebsite
+[issues-badge]: https://codeclimate.com/github/Deovandski/DeoPersonalWebsite/badges/issue_count.svg
 
