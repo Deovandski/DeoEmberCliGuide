@@ -1,21 +1,27 @@
 ---
 engines:
+  rubocop:
+    enabled: false
+  golint:
+    enabled: true
+  gofmt:
+    enabled: true
+  eslint:
+    enabled: true
   csslint:
+    enabled: true
+  bundler-audit:
+    enabled: false
+  fixme:
     enabled: true
   duplication:
     enabled: true
-    config:
-      languages:
-      - ruby
-      - javascript
-      - python
-      - php
-  eslint:
-    enabled: true
-  fixme:
-    enabled: true
 ratings:
   paths:
+  - "app/**"
+  - "config/**"
+  - "dist/**"
+  - "tests/**"
   - "**.css"
   - "**.inc"
   - "**.js"
@@ -25,6 +31,8 @@ ratings:
   - "**.py"
   - "**.rb"
 exclude_paths:
-- config/
-- tests/
-- vendor/
+- node_modules/**/*
+- bower_components/**/*
+- dist/**/*
+- vendor/**/*
+- "README.md"
