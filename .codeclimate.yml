@@ -1,4 +1,3 @@
----
 engines:
   rubocop:
     enabled: false
@@ -18,18 +17,10 @@ engines:
     enabled: true
 ratings:
   paths:
-  - "app/**"
-  - "config/**"
-  - "dist/**"
-  - "tests/**"
-  - "**.css"
-  - "**.inc"
-  - "**.js"
-  - "**.jsx"
-  - "**.module"
-  - "**.php"
-  - "**.py"
-  - "**.rb"
+    - "app/**"
+    - "config/**"
+    - "dist/**"
+    - "tests/**"
 exclude_paths:
 - node_modules/**/*
 - bower_components/**/*
