@@ -19,7 +19,7 @@ This guide was created with the purpose to cover the entire process from setting
 ## Ember Cli update
 
 1. Follow Project Update instructions of the choosen [Ember Cli Release](https://github.com/ember-cli/ember-cli/releases)
-2. Carefully review what the update changed on your files.
+2. Carefully review what the update changed.
 2. ember install ember-cli-blanket
 6. For Heroku Deployment, you may need to purge the cache with heroku repo:purge_cache -a APPNAME
 
