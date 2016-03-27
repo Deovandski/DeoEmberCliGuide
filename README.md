@@ -1,10 +1,8 @@
 ## Deo's Ember Cli Guide
 
-#UNDER CONSTRUCTION!
-
 [![Build Status][travis-badge]][travis] [![Test Coverage][testCoverage-badge]][testCoverage] [![Code Climate][codeClimate-badge]][codeClimate] [![Dependency Status][dependency-badge]][dependency] [![Issues][issues-badge]][issues]
 
-[Guide](https://deovandski.herokuapp.com/emberTutorial/) (Initial load may be slow due to Dyno sleep mode implemented by [Heroku](https://www.heroku.com/pricing).)
+[Visit the Guide](https://deovandski.herokuapp.com/emberTutorial/) (Initial load may be slow due to Dyno sleep mode implemented by [Heroku](https://www.heroku.com/pricing).)
 
 ## Notice
 
@@ -20,11 +18,9 @@ This guide was created with the purpose to cover the entire process from setting
 
 ## Ember Cli update
 
-1. Follow Project Update instructions on the choose [Ember Cli Release](https://github.com/ember-cli/ember-cli/releases)
+1. Follow Project Update instructions of the choosen [Ember Cli Release](https://github.com/ember-cli/ember-cli/releases)
+2. Carefully review what the update changed on your files.
 2. ember install ember-cli-blanket
-3. npm install --save-dev ember-cli-sass
-4. ember install ember-cli-bootstrap-sassy
-5. ember install ember-cli-document-title
 6. For Heroku Deployment, you may need to purge the cache with heroku repo:purge_cache -a APPNAME
 
 Something not working after update? Compare diffs and let me know what I missed by opening an issue. 
